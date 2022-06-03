@@ -25,7 +25,7 @@ where generated and cached source code is written and read to.
 code can test if `NO_COLOR` was set without having `--allow-env` by using the
 boolean constant `Deno.noColor`.
 -->
-`NO_COLOR` がセットされていればは出力の色付けを切ります。https://no-color.org/ を参照してください。ユーザーコードはブール定数 `Deno.noColor` を使うことで `--allow-env` を用いなくても `NO_COLOR` がセットされているかどうか調べることが出来ます。
+`NO_COLOR` がセットされていれば出力の色付けを切ります。https://no-color.org/ を参照してください。ユーザーコードはブール定数 `Deno.noColor` を使うことで `--allow-env` を用いなくても `NO_COLOR` がセットされているかどうか調べることが出来ます。
 
 <!-- ### Shell autocomplete -->
 ### シェル自動補完
